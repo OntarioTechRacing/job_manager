@@ -28,15 +28,24 @@ function fileUpload() {
     return(
         <div>
             <h2>Upload Files</h2>
-            <Dragger {...props}>
-                <p className = "ant-upload-drag-icons">
-                    <InboxOutlined />
-                </p>
-                <p className = "ant-upload-text">Click or drag files to this area to upload</p>
-                <p className = "ant-upload-hint">
-                    500 Mb max file size
-                </p>
-            </Dragger>
+            <div className="file-upload-container">
+                <Dragger {...props}>
+                    <p className = "ant-upload-drag-icons">
+                        <InboxOutlined />
+                    </p>
+                    <p className = "ant-upload-text">Click or drag files to this area to upload</p>
+                    <p className = "ant-upload-hint">
+                        500 Mb max file size
+                    </p>
+                </Dragger>
+
+                <div className = "uploaded-files-list">
+                    Uploaded Files
+                    <div className = "files-box">
+                        File Example 1
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

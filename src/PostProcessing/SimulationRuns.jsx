@@ -1,33 +1,15 @@
 import '../App.css';
 import SimulationRunsImage from '../images/SimulationRunsImage.png';
-import Nav from 'react-bootstrap/Nav';
-import {NavLink} from 'react-router-dom';
 
 function SimulationRuns(){
     return(
         <div>
             <div className = "navigation-container">
-                <Nav 
-                    activeKey="/"
-                    onSelect ={(selectedKey)=> alert(`selected ${selectedKey}`)}>
-                <div className = "nav-item">
-                    <Nav.Item>
-                        <Nav.Link as = {NavLink} to = "/simulation"> Simulation Runs</Nav.Link>
-                    </Nav.Item>
-                </div>
-
-                <div className = "nav-item">
-                <Nav.Item>
-                    <Nav.Link as={NavLink} to = "/forceresults">Image Results</Nav.Link>
-                </Nav.Item>
-                </div>
-
-                <div className = "nav-item">
-                    <Nav.Item>
-                        <Nav.Link as={NavLink} to = "/imageresults">Image Results</Nav.Link>
-                    </Nav.Item>
-                </div>
-                </Nav>
+                <ul>
+                    <li><a href="./simulation">Simulation Runs</a></li>
+                    <li><a href="./forceresults"> Force Results</a></li>
+                    <li><a href="./result">Images and Results Comparison</a></li>
+                </ul>
             </div>
 
             <div className = "simulationRuns-container">

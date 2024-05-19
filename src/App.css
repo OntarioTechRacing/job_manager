@@ -37,16 +37,80 @@
   }
 }
 
+/* ----------- DASHBOARD -------------- */
+
+.dashboard-titles {
+  display:flex;
+  flex-direction:column;
+  align-content:flex-start;
+  align-items:flex-start;
+  justify-content:flex-start;
+}
+
+.cases-container {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:flex-start;
+  align-content:space-between;
+}
+
+.case-item-container {
+  width:200px;
+  height:300px;
+  border-radius:15px;
+  background-color:#D9D9D9;
+}
+
+.case-title{
+  display:flex;
+  flex-direction:column;
+}
+
+.case-image-container {
+  width:200px;
+  height:200px;
+}
+
 .navigation-container {
   display:flex;
   flex-direction:row;
   justify-content:flex-start;
-  align-items:flex-start;
   align-content:flex-start;
+  align-items:flex-start;
+}
+
+.navigation-container ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0;
+  width:100%;
+}
+
+
+.navigation-container li {
+  margin:0px;
+
+}
+
+.navigation-container li a {
+  padding:10px;
+  text-decoration:none;
+  font-weight:bold;
+  color:black;
+  float:left;
+  border-radius:10px;
+  margin:5px;
+}
+
+.navigation-container li a:hover {
+  color:#ffffff;
+  background-color: #596992;
 }
 
 .nav-item {
-  margin:2px;
+  display:flex;
 }
 
 .simulationRuns-container {
@@ -68,12 +132,78 @@
 }
 
 .force-results-container {
-  background-color: #D9D9D9;
-  height:500px;
   border-radius:15px;
-  width:250px;
+  display:flex;
+  align-content:flex-start;
+  justify-content:flex-start;
+  align-items:flex-start;
+  flex-direction:column;
+  background-color:#D9D9D9;
+  width:300px;
+  height:550px;
+  margin:10px;
+  padding:10px;
 }
 
-.flexbox-container {
+.force-results-heading {
+  height:40px;
+  width:300px;
+  background-color:#CAC7C7;
+  border-radius:10px;
+  text-align:center;
+
+}
+
+.file-upload-container {
   display:flex;
+  align-content:center;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+.uploaded-files-list {
+  margin:20px;
+}
+
+.files-box {
+  width: 400px;
+  height:100px;
+  background-color: #E8E8EE;
+  border-radius:10px;
+  margin:10px;
+}
+
+.flex{
+  display:flex;
+  flex-direction:row;
+}
+
+.image-results-box {
+  display:flex;
+}
+
+.image-results-container {
+  width:400px;
+  height:600px;
+  background-color: #D9D9D9;
+  border-radius:10px;
+}
+
+.row-container {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  align-content:flex-end;
+  justify-content:flex-end;
+
+}
+
+.row {
+  margin:30px;
+  padding:20px;
+  display:flex;
+  align-items:flex-end;
+  align-content:flex-end;
+  justify-content:flex-end;
 }

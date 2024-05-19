@@ -2,19 +2,21 @@ import './App.css';
 import FileUpload from './FileUpload';
 import PostProcessing from './PostProcessing';
 import ForceResult from './PostProcessing/ForceResults';
-import ImageResult from './PostProcessing/ImageResults';
+import Result from './PostProcessing/ImageResults';
 import SimulationRuns from './PostProcessing/SimulationRuns';
 import {Routes, Route} from 'react-router-dom';
+import Dashboard from './Dashboard';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path = "/" element = <FileUpload/> />
+        <Route path = "/" element = <Dashboard/> />
+        <Route path = "/fileupload" element = <FileUpload /> />
         <Route path = "/post" element = <PostProcessing/> />
         <Route path = "/simulation" element = <SimulationRuns/> />
         <Route path = "/forceresults" element = <ForceResult/> />
-        <Route path = "/imageresults" element = <ImageResult/> />
+        <Route path = "/result" element = <Result/> />
       </Routes>
       
     </div>
