@@ -7,6 +7,8 @@ import SimulationRuns from './PostProcessing/SimulationRuns';
 import {Routes, Route} from 'react-router-dom';
 import Dashboard from './Dashboard';
 import Login from './Login';
+import NewAccount from './NewAccount';
+import Run from './PostProcessing/Run';
 
 function App() {
   return (
@@ -19,8 +21,9 @@ function App() {
         <Route path = "/simulation" element = <SimulationRuns/> />
         <Route path = "/forceresults" element = <ForceResult/> />
         <Route path = "/result" element = <Result/> />
+        <Route path = "/simulation/run" element = <Run/> />
+        <Route path = "/login/newaccount" element = <NewAccount/> />
       </Routes>
-      
     </div>
   );
 }

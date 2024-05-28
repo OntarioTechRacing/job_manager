@@ -7,7 +7,7 @@ function NewAccount(){
                 <div><img src = {otrLogo} alt = "OTR LOGO" width = "100"/></div>
 
                 <div>
-                    <div>Server Cluster App</div>
+                    <div><h2>Server Cluster App</h2></div>
                 </div>
 
                 <div className = "form-container">

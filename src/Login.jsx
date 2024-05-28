@@ -1,6 +1,8 @@
 
 import './App.css';
 import otrLogo from './images/otrLogo.png';
+import NewAccount from './NewAccount.jsx';
+import { Link } from 'react-router-dom'
 
 function Login(){
     return (
@@ -14,7 +16,7 @@ function Login(){
                     <div><img src = {otrLogo} alt = "OTR LOGO" width = "100"/></div>
 
                     <div>
-                        <div>Server Cluster App</div>
+                        <div><h2>Server Cluster App</h2></div>
                     </div>
 
                     <div className = "form-container">
@@ -36,10 +38,18 @@ function Login(){
 
                     <div>
                         <div>Sign in with Google</div>
-                        <div>Are you new? Create an account</div>
+                        <div>
+                            <div>Are you new?</div>
+                            <div>
+                                    <button> 
+                                        <Link to={"./NewAccount"}>
+                                            Create an account
+                                        </Link> 
+                                    </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            
             </div>
         </div>
     )

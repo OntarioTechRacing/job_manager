@@ -1,8 +1,7 @@
 import '../App.css';
 import SimulationRunsImage from '../images/SimulationRunsImage.png';
 import Navbar from '../Navbar';
-import Run from './Run';
-import { BrowserRouter, Route, Link } from "react-router-dom"; 
+import { Link } from "react-router-dom"; 
 
 function SimulationRuns(){
     return(
@@ -39,7 +38,7 @@ function SimulationRuns(){
 
                     <div>
                         <button>
-                            <Link to={Run}>View Details</Link>
+                            <Link to={'./Run'}>View Details</Link>
                         </button>
                     </div>
                 </div>
@@ -61,7 +60,9 @@ function SimulationRuns(){
 
                     <div>
                         <button>
-                            <Link to={Run}>View Details</Link>
+                            <Link to={'./Run'}>
+                                View Details
+                            </Link>
                         </button>
                     </div>
 
@@ -84,7 +85,7 @@ function SimulationRuns(){
 
                     <div>
                         <button>
-                            <Link to={Run}>View Details</Link>
+                            <Link to={'./Run'}>View Details</Link>
                         </button>
                     </div>
                 </div>
