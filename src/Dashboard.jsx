@@ -1,6 +1,6 @@
 import './App.css';
 import DashboardImage from './images/DashboardImage.png';
-import FilePlaceholder from './images/FilePlaceholder.png';
+// import FilePlaceholder from './images/FilePlaceholder.png';
 
 function Dashboard(){
     return(
@@ -15,7 +15,7 @@ function Dashboard(){
                 <div className = "cases-container">
                     <div className = "case-item-container">
                         <div className = "case-title">
-                            <div className = "case-image-container"><img src = {FilePlaceholder} alt = "FilePlaceholder" /></div>
+                            {/* <div className = "case-image-container"><img src = {FilePlaceholder} alt = "FilePlaceholder" /></div> */}
                             <div>File Name</div>
                             <div>Date: 12/03/2023</div>
                         </div>
