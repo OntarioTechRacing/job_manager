@@ -4,6 +4,10 @@ import Image from '../images/ImageandResultsComparison.png';
 function ImageResults(){
     return(
         <div>
+            <div className = "force-results-title">
+                <h2>Post Processing Section</h2>
+            </div>
+
             <div>
                 <div className = "navigation-container">
                     <ul>
@@ -16,7 +20,7 @@ function ImageResults(){
 
             <div className = "image-results-box">
                 <div className = "image-results-container">
-                    <div><h2>Details of Case Comparison</h2></div>
+                    <div><h3>Details of Case Comparison</h3></div>
                     <div>Case 1</div>
                     <div>Case 2</div>
                 </div>
