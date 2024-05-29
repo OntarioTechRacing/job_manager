@@ -12,15 +12,14 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path = "/" element = <Dashboard/> />
-        <Route path = "/login" element = <Login/> />
-        <Route path = "/fileupload" element = <FileUpload /> />
-        <Route path = "/post" element = <PostProcessing/> />
-        <Route path = "/simulation" element = <SimulationRuns/> />
-        <Route path = "/forceresults" element = <ForceResult/> />
-        <Route path = "/result" element = <Result/> />
+        <Route path="/" element={<Dashboard />} />  {/* Use Route component for each route */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/fileupload" element={<FileUpload />} />
+        <Route path="/post" element={<PostProcessing />} />
+        <Route path="/simulation" element={<SimulationRuns />} />
+        <Route path="/forceresults" element={<ForceResult />} />
+        <Route path="/result" element={<Result />} />
       </Routes>
-      
     </div>
   );
 }
