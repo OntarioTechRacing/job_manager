@@ -95,14 +95,33 @@
   flex-direction:row;
 }
 
+.flex-container{
+  display:flex;
+  flex-direction:column;
+}
+
 /* ------------ NEW ACCOUNT ---------*/
 
 /* ----------- DASHBOARD -------------- */
+.dashboard-container{
+  display:flex;
+  flex-direction:row;
+}
+
+.dashboard-titles-container{
+  display:flex;
+  flex-direction:column;
+}
 
 .dashboard-titles {
   display:flex;
   flex-direction:column;
   align-items:flex-start;
+}
+
+.case-titles-container {
+  display:flex;
+  flex-direction:column;
 }
 
 .cases-container {
@@ -112,6 +131,7 @@
   justify-content:flex-start;
   align-items:flex-start;
   align-content:space-between;
+  gap:50px;
 }
 
 .case-item-container {
@@ -129,6 +149,20 @@
 .case-image-container {
   width:200px;
   height:200px;
+}
+.dashboard-nav-container{
+  display:flex;
+}
+
+.dashboard-img{
+  width:100%;
+}
+
+.navbar-container {
+  display:flex;
+  flex-direction:column;
+  gap: 40px;
+  margin:10px;
 }
 
 .navigation-container {
@@ -191,6 +225,22 @@
   justify-content:flex-start;
   align-items:flex-start;
   align-content:flex-start;
+}
+
+.loadMore-btn{
+  width:150px;
+  height:50px;
+  background-color:#D0D0D0;
+  border-radius:10px;
+  color:black;
+  margin:10px;
+}
+
+.addFile-btn{
+  width:100px;
+  background-color:lightgray;
+  height:30px;
+  border-radius:10px;
 }
 
 /* --------- FORCE RESULTS ---------- */
