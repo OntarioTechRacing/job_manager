@@ -6,7 +6,14 @@ import { Link } from "react-router-dom";
 function SimulationRuns(){
     return(
         <div>
-            <Navbar/>
+            <div className="dashboard-container">
+
+            <div className="dashboard-nav-container">
+                <Navbar/>
+            </div>
+
+            <div className="flex-container">
+
             <div className = "force-results-title">
                 <h2>Post Processing Section</h2>
             </div>
@@ -37,7 +44,7 @@ function SimulationRuns(){
                     <div>Outcome</div>
 
                     <div>
-                        <button>
+                        <button className="viewDetails-btn">
                             <Link to={'./Run'}>View Details</Link>
                         </button>
                     </div>
@@ -59,7 +66,7 @@ function SimulationRuns(){
                     <div>Outcome</div>
 
                     <div>
-                        <button>
+                        <button className="viewDetails-btn">
                             <Link to={'./Run'}>
                                 View Details
                             </Link>
@@ -84,12 +91,14 @@ function SimulationRuns(){
                     <div>Outcome</div>
 
                     <div>
-                        <button>
+                        <button className="viewDetails-btn">
                             <Link to={'./Run'}>View Details</Link>
                         </button>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
     )
 }
