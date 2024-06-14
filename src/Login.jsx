@@ -1,7 +1,6 @@
 
 import './App.css';
 import otrLogo from './images/otrLogo.png';
-import NewAccount from './NewAccount.jsx';
 import { Link } from 'react-router-dom'
 
 function Login(){
