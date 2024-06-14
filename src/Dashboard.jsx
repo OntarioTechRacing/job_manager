@@ -14,7 +14,6 @@ function Dashboard(){
             <div className="flex-container">
             
             <div className="dashboard-titles-container">
-
                 <div className="titles-container">
                 <div className="dashboard-titles">
                     <div><h2>Welcome to CFD Simulations</h2></div>
