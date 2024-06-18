@@ -2,6 +2,7 @@
 import './App.css';
 import otrLogo from './images/otrLogo.png';
 import { Link } from 'react-router-dom'
+import { CgProfile } from "react-icons/cg";
 
 function Login(){
     return (
@@ -9,6 +10,10 @@ function Login(){
             <div className = "login-background">
                 <div className = "login-image">
 
+                </div>
+
+                <div className="profile-icons">
+                    <CgProfile/>
                 </div>
 
                 <div>

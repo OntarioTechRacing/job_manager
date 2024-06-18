@@ -1,4 +1,5 @@
 import otrLogo from './images/otrLogo.png';
+import { Link } from 'react-router-dom'
 
 function NewAccount(){
     return(
@@ -43,6 +44,14 @@ function NewAccount(){
 
                 <div>
                     <div>Sign up with Google</div>
+                    <div>
+                                    <button className="newAccount-btn"> 
+                                        <Link to={"../Login"}>
+                                            Already have an account
+                                        </Link> 
+                                    </button>
+                            </div>
+
                 </div>
             </div>
         </div>
