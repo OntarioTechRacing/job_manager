@@ -7,11 +7,7 @@ function SimulationRuns(){
     return(
         <div>
             <div className="dashboard-container">
-
-            <div className="dashboard-nav-container">
-                <Navbar/>
-            </div>
-
+            
             <div className="flex-container">
 
             <div className = "force-results-title">
@@ -45,7 +41,7 @@ function SimulationRuns(){
 
                     <div>
                         <button className="viewDetails-btn">
-                            <Link to={'./Run'}>View Details</Link>
+                            <Link to={"../Simulation/Run"}>View Details</Link>
                         </button>
                     </div>
                 </div>
@@ -67,7 +63,7 @@ function SimulationRuns(){
 
                     <div>
                         <button className="viewDetails-btn">
-                            <Link to={'./Run'}>
+                            <Link to={'../Simulation/Run'}>
                                 View Details
                             </Link>
                         </button>
@@ -92,7 +88,7 @@ function SimulationRuns(){
 
                     <div>
                         <button className="viewDetails-btn">
-                            <Link to={'./Run'}>View Details</Link>
+                            <Link to={'../Simulation/Run'}>View Details</Link>
                         </button>
                     </div>
                 </div>

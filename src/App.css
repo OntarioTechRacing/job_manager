@@ -100,13 +100,17 @@
   flex-direction:column;
 }
 
-.login-btn{
+.login-container{
+  margin:10px;
+  margin-left:auto;
+}
+
+.login-btn {
   width:70px;
   height:40px;
   background-color:#D0D0D0;
   border-radius:10px;
   color:black;
-  margin:10px;
 }
 
 /* ------------ NEW ACCOUNT ---------*/
@@ -263,6 +267,8 @@
   background-color:lightgray;
   height:30px;
   border-radius:10px;
+  margin:10px;
+  margin-left:auto;
 }
 
 /* --------- RUN RESULTS ----------*/

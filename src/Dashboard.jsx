@@ -20,7 +20,7 @@ function Dashboard(){
                     <div><h4>View progess and compare cases</h4></div>
                 </div>
 
-                <div>
+                <div className="login-container">
                     <button className="login-btn">
                         <Link to = "./Login">
                             Login
