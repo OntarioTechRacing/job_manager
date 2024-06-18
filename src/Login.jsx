@@ -40,7 +40,7 @@ function Login(){
                         <div>
                             <div>Are you new?</div>
                             <div>
-                                    <button> 
+                                    <button className="newAccount-btn"> 
                                         <Link to={"./NewAccount"}>
                                             Create an account
                                         </Link> 

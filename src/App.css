@@ -78,10 +78,9 @@
 }
 
 .login-background{
-  display:flex;
-  justify-content:center;
-  align-content:center;
-  align-items:center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .line-break{
@@ -114,6 +113,11 @@
 }
 
 /* ------------ NEW ACCOUNT ---------*/
+
+.newAccount-btn{
+  font-family: 'Jost';
+  color:black;
+}
 
 /* ----------- DASHBOARD -------------- */
 .dashboard-container{
@@ -293,9 +297,6 @@
   gap:20px;
 }
 
-.buttons-container {
-
-}
 
 .run-container{
   display:flex;
@@ -304,11 +305,17 @@
   justify-content:center;
 }
 
+.buttons-container {
+  margin:20px;
+  margin-left: auto;
+}
+
 .results-btn{
   height:30px;
   width:100px;
   background-color:#EA3C3C;
   border-radius:10px;
+  margin:5px;
 }
 
 .save-btn{
@@ -316,6 +323,8 @@
   width:100px;
   background-color:#D9D9D9;
   border-radius:10px;
+  margin:5px;
+
 }
 
 .run-information-container{
