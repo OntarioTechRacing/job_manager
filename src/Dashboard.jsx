@@ -3,6 +3,7 @@ import DashboardImage from './images/DashboardImage.png';
 import Navbar from './Navbar';
 import SimulationRunsImage from './images/SimulationRunsImage.png';
 import { Link } from 'react-router-dom'
+import { CgProfile } from "react-icons/cg";
 
 function Dashboard(){
     return (
@@ -12,7 +13,7 @@ function Dashboard(){
                 <Navbar/>
             </div>
             <div className="flex-container">
-            
+    
             <div className="dashboard-titles-container">
                 <div className="titles-container">
                 <div className="dashboard-titles">
