@@ -8,12 +8,13 @@ import Dashboard from './Dashboard';
 import Login from './Login';
 import NewAccount from './NewAccount';
 import Run from './PostProcessing/Run';
+import ProfileSettings from './ProfileSettings';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Dashboard />} />  {/* Use Route component for each route */}
+        <Route path="/" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path = "/login/newaccount" element = {<NewAccount/> } />
         <Route path="/fileupload" element={<FileUpload />} />
@@ -22,6 +23,7 @@ function App() {
         <Route path="/forceresults" element={<ForceResult />} />
         <Route path="/result" element={<Result />} />
         <Route path = "/simulation/run" element = {<Run/>} />
+        <Route path="/profile-settings" element={<ProfileSettings />} />
       </Routes>
     </div>
   );
