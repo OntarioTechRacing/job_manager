@@ -8,6 +8,7 @@ import Dashboard from './Dashboard';
 import Login from './Login';
 import NewAccount from './NewAccount';
 import Run from './PostProcessing/Run';
+import Profile from './ProfileSettings';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/forceresults" element={<ForceResult />} />
         <Route path="/result" element={<Result />} />
         <Route path = "/simulation/run" element = {<Run/>} />
+        <Route path="/profile" element={<Profile/>}></Route>
       </Routes>
     </div>
   );
