@@ -45,6 +45,12 @@ function Dashboard(){
                         Add File 
                     </Link>
                 </button>
+
+                <button className="addFile-btn">
+                    <Link to={"./JobManager"}>
+                        Upload Job
+                    </Link>
+                </button>
             </div>
 
                     <div className = "cases-container">

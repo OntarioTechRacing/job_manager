@@ -9,6 +9,7 @@ import Login from './Login';
 import NewAccount from './NewAccount';
 import Run from './PostProcessing/Run';
 import Profile from './ProfileSettings';
+import JobManager from './JobManager';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/result" element={<Result />} />
         <Route path = "/simulation/run" element = {<Run/>} />
         <Route path="/profile" element={<Profile/>}></Route>
+        <Route path = "/JobManager" element={<JobManager/>} />
       </Routes>
     </div>
   );
