@@ -13,7 +13,7 @@ function Dashboard(){
                 <Navbar/>
             </div>
             <div className="flex-container">
-    
+
             <div className="dashboard-titles-container">
                 <div className="titles-container">
                 <div className="dashboard-titles">
@@ -41,8 +41,8 @@ function Dashboard(){
                 </div>
 
                 <button className="addFile-btn">
-                    <Link to = {"./FileUpload"}>                    
-                        Add File 
+                    <Link to = {"./FileUpload"}>
+                        Add File
                     </Link>
                 </button>
 
